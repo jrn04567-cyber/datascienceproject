@@ -1,0 +1,15 @@
+pandas
+numpy
+notebook
+matplotlib
+seaborn
+scikit-learn
+mlflow
+python-box
+pyYAML
+joblib
+ensure
+flask
+types-PyYAML
+
+#-e .
