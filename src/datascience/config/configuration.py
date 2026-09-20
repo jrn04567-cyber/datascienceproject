@@ -90,7 +90,7 @@ class ConfigurationManager:
          all_params=params,
          metric_file_name=config.metric_file_name,
          target_column=schema.name,
-         mlflow_uri="https://dagshub.com/<YOUR_DAGSHUB_USERNAME>/<YOUR_DAGSHUB_REPO>.mlflow"
+         mlflow_uri="https://dagshub.com/jrn04567-cyber/datascienceproject.mlflow"
      )
 
      return model_evaluation_config

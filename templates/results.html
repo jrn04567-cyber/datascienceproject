@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+        .score-box {
+            font-size: 3rem;
+            font-weight: 700;
+            color: #722f37;
+        }
+        .btn-back {
+            background-color: #722f37;
+            border: none;
+            color: white;
+            padding: 8px 20px;
+        }
+        .btn-back:hover {
+            background-color: #59232a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <div class="card p-5">
+                    <h3 class="fw-bold mb-3">Predicted Wine Quality</h3>
+                    <div class="score-box my-3">{{ prediction }}</div>
+                    <p class="text-muted mb-4">Estimated score out of 10 based on chemical attributes.</p>
+                    <div>
+                        <a href="/" class="btn btn-back">Test Another Sample</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
